@@ -64,7 +64,8 @@ The Central Library wants to manage book lending and cultural events.
 
 ### ER Diagram:
  
-![ER Diagram](<img width="1215" height="736" alt="Screenshot 2025-11-26 184616" src="https://github.com/user-attachments/assets/4246f240-f3d0-4d5f-8889-3c16d0b33740" />
+<img width="1215" height="736" alt="Screenshot 2025-11-26 184616" src="https://github.com/user-attachments/assets/e51b3f88-aaf1-4b2e-a479-502db42f5b5a" />
+
 
 )
 
@@ -111,7 +112,8 @@ A popular restaurant wants to manage reservations, orders, and billing.
 
 ### ER Diagram:
 
-![ER Diagram](<img width="728" height="852" alt="486727912-1702e1d1-3120-4d28-b9df-936127b873ba" src="https://github.com/user-attachments/assets/83c30234-6ec5-4a41-9ded-50c7354f9be3" />
+<img width="728" height="852" alt="486727912-1702e1d1-3120-4d28-b9df-936127b873ba" src="https://github.com/user-attachments/assets/0ba3751b-12eb-4f19-b16b-127ff613941b" />
+
 
 )
 
