@@ -67,7 +67,7 @@ The Central Library wants to manage book lending and cultural events.
 <img width="1215" height="736" alt="Screenshot 2025-11-26 184616" src="https://github.com/user-attachments/assets/e51b3f88-aaf1-4b2e-a479-502db42f5b5a" />
 
 
-)
+
 
 ### Entities and Attributes
 
@@ -115,7 +115,7 @@ A popular restaurant wants to manage reservations, orders, and billing.
 <img width="728" height="852" alt="486727912-1702e1d1-3120-4d28-b9df-936127b873ba" src="https://github.com/user-attachments/assets/0ba3751b-12eb-4f19-b16b-127ff613941b" />
 
 
-)
+
 
 ### Entities and Attributes
 
