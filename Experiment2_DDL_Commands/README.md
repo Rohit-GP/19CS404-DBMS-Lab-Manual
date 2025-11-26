@@ -104,6 +104,7 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
+---
 <img width="979" height="300" alt="image" src="https://github.com/user-attachments/assets/45156645-f08e-4d2d-99e3-f849cfadc151" />
 
 
@@ -119,51 +120,76 @@ ADD designation varchar(50);
 
 **Question 2**
 ---
--- Paste Question 2 here
+<img width="1199" height="471" alt="image" src="https://github.com/user-attachments/assets/9934d316-5db7-4d78-8dd0-133e394bc679" />
+
 
 ```sql
--- Paste your SQL code below for Question 2
+INSERT INTO Books (ISBN, Title, Author)
+VALUES('978-1234567890','Introduction to AI', 'John Doe');
+
+INSERT INTO Books (ISBN, Title, Author, Publisher, Year)
+VALUES('978-9876543210','Deep Learning','Jane Doe','TechPress','2022');
+
+INSERT INTO Books (ISBN, Title, Author, Year)
+VALUES('978-1122334455','Cybersecurity Essentials','Alice Smith','2021');
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="1236" height="377" alt="image" src="https://github.com/user-attachments/assets/e1efd7fb-63dd-4f55-9340-4800e27a4f86" />
 
 **Question 3**
 ---
--- Paste Question 3 here
+<img width="969" height="344" alt="image" src="https://github.com/user-attachments/assets/5c3d5ac2-3452-4f76-984b-a03c15b3dfda" />
+
 
 ```sql
--- Paste your SQL code below for Question 3
+INSERT INTO Books (ISBN,Title, Author,  Publisher, YearPublished)
+SELECT ISBN,Title, Author,  Publisher, YearPublished
+FROM Out_of_print_books
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="1222" height="352" alt="image" src="https://github.com/user-attachments/assets/649b3d44-6a6f-4971-b8ea-d31519542b59" />
+
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+<img width="1078" height="238" alt="image" src="https://github.com/user-attachments/assets/cda5b4c5-9f8e-468b-9b7c-565912b49e31" />
+
 
 ```sql
--- Paste your SQL code below for Question 4
+INSERT INTO Products (ProductID,  Name, Category, Price, Stock)
+VALUES (101,'Laptop','Electronics',1500,50);
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="1226" height="324" alt="image" src="https://github.com/user-attachments/assets/7f5c2abc-cd6e-4008-a9c4-414774096c40" />
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+<img width="1230" height="450" alt="image" src="https://github.com/user-attachments/assets/9699a869-aa21-4c9d-a674-cbeaae3eb470" />
+
 
 ```sql
--- Paste your SQL code below for Question 5
+CREATE TABLE Employees (
+    EmployeeID INTEGER PRIMARY KEY,
+    FirstName TEXT NOT NULL,
+    LastName TEXT NOT NULL,
+    Email TEXT UNIQUE,
+    Salary INTEGER CHECK (Salary>0),
+    DepartmentID INTEGER,
+    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+);
 ```
 
 **Output:**
 
-![Output5](output.png)
+<img width="1229" height="503" alt="image" src="https://github.com/user-attachments/assets/b665a306-e7a1-4950-8b94-a37592392414" />
 
 **Question 6**
 ---
