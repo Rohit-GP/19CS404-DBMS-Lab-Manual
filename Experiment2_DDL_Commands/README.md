@@ -104,16 +104,18 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
---
--- Paste Question 1 here
+<img width="979" height="300" alt="image" src="https://github.com/user-attachments/assets/45156645-f08e-4d2d-99e3-f849cfadc151" />
+
 
 ```sql
--- Paste your SQL code below for Question 1
+ALTER TABLE employee
+ADD designation varchar(50);
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1246" height="361" alt="image" src="https://github.com/user-attachments/assets/760e96d8-a892-4c3d-90f4-6213da1e484d" />
+
 
 **Question 2**
 ---
