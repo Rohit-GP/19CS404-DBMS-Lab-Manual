@@ -193,63 +193,98 @@ CREATE TABLE Employees (
 
 **Question 6**
 ---
--- Paste Question 6 here
+<img width="1221" height="410" alt="image" src="https://github.com/user-attachments/assets/df49f244-61d2-4072-8f68-18386fbd65ac" />
+
 
 ```sql
--- Paste your SQL code below for Question 6
+CREATE TABLE Attendance (
+    AttendanceID  INTEGER PRIMARY KEY,
+    EmployeeID INTEGER,
+    AttendanceDate DATE,
+    Status TEXT CHECK (Status IN ('Present','Absent','Leave')),
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+);
 ```
 
 **Output:**
 
-![Output6](output.png)
+<img width="1239" height="370" alt="image" src="https://github.com/user-attachments/assets/1ada9ffc-0169-444e-93a5-66012db2fcf7" />
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+<img width="982" height="329" alt="image" src="https://github.com/user-attachments/assets/36f14618-395e-4f5c-8e6a-5ac5b8b29d0b" />
+
 
 ```sql
--- Paste your SQL code below for Question 7
+ALTER TABLE customers
+ADD COLUMN email TEXT;
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="1239" height="369" alt="image" src="https://github.com/user-attachments/assets/a89447c9-d919-402b-a351-77581f5846c5" />
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+<img width="1225" height="360" alt="image" src="https://github.com/user-attachments/assets/69fed08e-e6bc-4a26-9c39-944a0ef0176b" />
+
 
 ```sql
--- Paste your SQL code below for Question 8
+CREATE TABLE Department  (
+    DepartmentID INTEGER PRIMARY KEY,
+    DepartmentName TEXT UNIQUE NOT NULL,
+    Location TEXT
+);
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="1228" height="355" alt="image" src="https://github.com/user-attachments/assets/381c7796-93d7-4b9f-af96-8d140b912aeb" />
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+<img width="1030" height="473" alt="image" src="https://github.com/user-attachments/assets/8b2ded21-e3de-459e-a1f6-6b60ebe1395f" />
+
 
 ```sql
--- Paste your SQL code below for Question 9
+CREATE TABLE item (
+    item_id TEXT PRIMARY KEY,
+    item_desc TEXT NOT NULL,
+    rate INTEGER NOT NULL,
+    icom_id TEXT(4),
+    FOREIGN KEY (icom_id)
+        REFERENCES company(com_id)
+        ON UPDATE SET NULL
+        ON DELETE SET NULL
+);
 ```
 
 **Output:**
 
-![Output9](output.png)
+<img width="1220" height="427" alt="image" src="https://github.com/user-attachments/assets/0a80907b-a68e-4a75-954e-8081c1664d21" />
+
 
 **Question 10**
 ---
--- Paste Question 10 here
+<img width="912" height="454" alt="image" src="https://github.com/user-attachments/assets/c2be74f3-b486-45bb-875a-6b915457e447" />
+
 
 ```sql
--- Paste your SQL code below for Question 10
+CREATE TABLE Products (
+    ProductID INTEGER,
+    ProductName TEXT,
+    Price REAL,
+    Stock INTEGER
+);
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="1226" height="392" alt="image" src="https://github.com/user-attachments/assets/81874424-d520-49c7-b503-71e45c04a83f" />
+
 
 
 ## RESULT
